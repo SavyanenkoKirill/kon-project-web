@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  web:
+    build: ./kon
+    ports:
+      - 8005:8080
+    volumes:
+      - ./kon:/kon
